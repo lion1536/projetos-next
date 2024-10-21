@@ -45,7 +45,16 @@
 .mensagem {
   background: none;
   border: none;
-  justify-content: space-between;
+}
+
+.digitar {
+  border: none;
+  background-color: transparent;
+}
+
+.digitar img {
+  width: 2rem;
+  height: 2rem;
 }
 
 .artistas img {

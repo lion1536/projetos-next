@@ -2,7 +2,7 @@ import styles from "./messageFormulario.module.css";
 import { useState } from "react";
 
 export default function MessageFormulario() {
-  const [message, setMessage] = useState("");
+  const [postMessage, setMessageContent] = useState("");
 
   const handleSubmit = async (event) => {
     event.preventDefault();

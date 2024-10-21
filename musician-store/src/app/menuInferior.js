@@ -22,16 +22,14 @@ export default function MenuInferior() {
         <div className={styles.cart}>
           <img src="/cart.svg"></img>
         </div>
-        <div className={styles.mensagem}>
-          <button className={styles.digitar} onClick={toggleMessage}>
-            <img src="/notepad.svg"></img>
-          </button>
-          <div className={styles.artistas}>
-            <img src="/artists.svg"></img>
-          </div>
-          <div className={styles.usuario}>
-            <img src="/user.svg"></img>
-          </div>
+        <button className={styles.digitar} onClick={toggleMessage}>
+          <img src="/notepad.svg"></img>
+        </button>
+        <div className={styles.artistas}>
+          <img src="/artists.svg"></img>
+        </div>
+        <div className={styles.usuario}>
+          <img src="/user.svg"></img>
         </div>
       </div>
     </>
